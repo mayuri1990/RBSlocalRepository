@@ -1,0 +1,19 @@
+<section class="">
+	<p data-sly-test="${properties.text}">Text property: ${properties.text}</p>
+	<pre data-sly-use.hello="com.aemworkbench.accenture.aemworkbench.core.models.HelloWorldModel">
+	HelloWorldModel says:
+		${hello.message}
+  </pre>
+<div>
+<div data-sly-resource="${'logo' @ resourceType='/libs/foundation/components/logo'}"></div>
+<div ng-app="" ng-controller="">
+
+<dl data-sly-list="${currentPage.listChildren}">
+<dt>index: ${itemList.index}</dt>
+<dd>value: ${item.title}</dd>
+</dl><dl data-sly-list="${currentPage.listChildren}">
+<dt>index: ${itemList.index}</dt>
+<dd>value: ${item.title}</dd>
+</dl>
+		</div>
+</section>

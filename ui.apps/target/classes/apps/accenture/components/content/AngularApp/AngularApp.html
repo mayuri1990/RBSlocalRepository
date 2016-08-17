@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<div data-sly-include="/libs/wcm/core/components/init/init.jsp"></div>
+<sly data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}" data-sly-unwrap/>
+<meta data-sly-call="${clientLib.all @ categories='angularjs.clientlibs'}" data-sly-unwrap></meta>
+</head>
+<body>
+<div ng-app="">
+Please Enter your Angular js UI related functiinality
+<div data-sly-resource="${@path='bodycontent', resourceType='foundation/components/parsys'}" data-sly-unwrap > </div>
+</div>
+</body>
+</html>

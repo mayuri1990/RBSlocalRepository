@@ -1,0 +1,38 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1471425271731
+Build-Jdk: 1.8.0_101
+Built-By: mayuri.jadhav
+Bundle-Description: Core bundle for Accenture
+Bundle-ManifestVersion: 2
+Bundle-Name: Accenture - Core
+Bundle-SymbolicName: com.org.accenture.core
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.org.accenture.core.filters;version="0.0.1";uses:="ja
+ vax.servlet",com.org.accenture.core.listeners;version="0.0.1";uses:="or
+ g.osgi.service.event",com.org.accenture.core;version="1.0";uses:="ch.qo
+ s.logback.classic.spi,ch.qos.logback.core.filter,ch.qos.logback.core.sp
+ i,org.osgi.service.component",com.org.accenture.core.models.AAJava;vers
+ ion="0.0.1";uses:="com.adobe.cq.sightly",com.org.accenture.core.models.
+ AngularAppJava;version="0.0.1";uses:="com.adobe.cq.sightly",com.org.acc
+ enture.core.models;version="0.0.1";uses:="javax.annotation,javax.inject
+ ,org.apache.sling.api.resource,org.apache.sling.models.annotations",com
+ .org.accenture.core.models.InputTextJava;version="0.0.1";uses:="com.ado
+ be.cq.sightly",com.org.accenture.core.schedulers;version="0.0.1",com.or
+ g.accenture.core.servlets;version="0.0.1";uses:="javax.servlet,org.apac
+ he.sling.api,org.apache.sling.api.servlets"
+Import-Package: ch.qos.logback.classic;version="[1.1,2)",ch.qos.logback.
+ classic.spi;version="[1.1,2)",ch.qos.logback.core;version="[1.1,2)",ch.
+ qos.logback.core.filter;version="[1.1,2)",ch.qos.logback.core.spi;versi
+ on="[1.1,2)",com.adobe.cq.sightly;version="[2.2,3)",javax.annotation,ja
+ vax.inject;version="[0.0,1)",javax.servlet,org.apache.commons.lang,org.
+ apache.sling.api;version="[2.3,3)",org.apache.sling.api.request;version
+ ="[2.4,3)",org.apache.sling.api.resource;version="[2.5,3)",org.apache.s
+ ling.api.servlets;version="[2.1,3)",org.apache.sling.commons.osgi;versi
+ on="[2.2,3)",org.apache.sling.models.annotations;version="[1.0,2)",org.
+ apache.sling.settings;version="[1.3,2)",org.osgi.service.component;vers
+ ion="[1.1,2)",org.osgi.service.event;version="[1.2,2)",org.slf4j;versio
+ n="[1.5,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Sling-Model-Packages: com.org.accenture.core
+Tool: Bnd-2.3.0.201405100607
